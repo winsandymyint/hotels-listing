@@ -4,7 +4,7 @@
             <label>Minimal</label>
             <div class="input-group">
                 <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
+                    <i class="fa fa-location-arrow"></i>
                 </div>
                 <input class="required search_table_cell_input form-control" id="where" name="where" type="text" placeholder="eg. Singapore"/>            
                 <input class="" id="destination_code" type="hidden" name="destination_code" value="">
@@ -34,7 +34,7 @@
             <label>Persons</label>
             <div class="input-group">
                 <div class="input-group-addon">
-                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-user"></i>
                 </div>
                 <select class="form-control" name="no_of_guests">
                     <option value="1">1 Guests</option>
@@ -48,7 +48,7 @@
             <label>Rooms</label>
             <div class="input-group">
                 <div class="input-group-addon">
-                    <i class="fa fa-phone"></i>
+                    <i class="fa fa-building-o"></i>
                 </div>
                <select class="form-control" name="no_of_rooms">
                     <option value="1">1 rooms</option>
