@@ -7,6 +7,7 @@
 <link href="web/css/lte/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="web/css/lte/font-awesome.css" rel="stylesheet" type="text/css" />
 <link href="web/css/lte/ionicons.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/css/bootstrap-datepicker.min.css">
 <!-- Theme style -->
 <link href="web/css/lte/AdminLTE.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/flick/jquery-ui.css">
@@ -16,7 +17,7 @@
 <script src="web/js/lte/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
 <script src="web/js/lte/bootstrap.min.js" type="text/javascript"></script>
 <script src="web/js/main/main.js" type="text/javascript"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
 <?=(isset($head) && is_array($head)) ? implode("\n",$head) : ''?>
 </head>
 

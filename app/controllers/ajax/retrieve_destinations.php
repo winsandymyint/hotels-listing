@@ -1,8 +1,7 @@
 <?php 
 use GuzzleHttp\Client;
 function _retrieve_destinations($term = '') {
-    $term = trim($_GET['query']);
-    $term = 'ya';
+    $term = trim($_POST['term']);    
     $client = new Client();
     $response = $client->get('http://api.zumata.com/autosuggest/'.$term.'?api_key=rEnlPVvPD6V87RstUqEeoFjaQZt5GnFbNFxwyi2P');
     $tags = $response->json();  
